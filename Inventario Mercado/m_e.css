@@ -1,0 +1,22 @@
+:root{
+	--titulos: rgb(10, 10, 10);
+	--subtitulos: rgb(53, 53, 3);
+	--parrafos: rgb(132, 0, 255);
+	--border: 2px solid rgb(165, 159, 159);
+}
+
+h1{
+	color: black;
+	color: var(--titulos, rgb(10, 10, 10));
+}
+
+h2{
+	color: black;
+	color: var(--subtitulos, rgb 53, 53, 3);
+}
+
+p{
+	border: var(--border);
+	color: rgb(165, 159, 159);
+	color: var(--parrafos, rgb(132, 0, 255));
+}
