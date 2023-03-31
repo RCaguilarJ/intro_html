@@ -1,0 +1,68 @@
+/* hermano adyacente */
+
+h2 + p { 
+    color: rgb(165, 127, 255);
+}
+
+h3 + p{
+    color: rgb(54, 172, 172);
+}
+
+h {
+    color: blueviolet;
+}
+
+p {
+    color: rgb(161, 114, 52);
+}
+h2 + h3 {
+    color: rgb(119, 119, 105);
+}
+h2 {
+    color: rgb(6, 6, 105);
+} 
+ 
+
+
+
+/* General sibling */
+
+
+/* h2 ~ p {
+
+    color: rgb(165, 127, 255);
+}
+
+h3 ~ p{
+    color: rgb(54, 172, 172);
+}
+
+h {
+    color: blueviolet;
+}
+
+p {
+    color: rgb(161, 114, 52);
+}
+h2 ~ h3 {
+    color: rgb(119, 119, 105);
+}
+h2 {
+    color: rgb(6, 6, 105);
+} */
+
+
+/* Hijo y descendiente */
+/*Descendiente*/
+
+/* div p{
+    color: brown;
+} */
+
+
+/* Hijo */
+
+/* div > p{
+    color: blueviolet;
+} */
+

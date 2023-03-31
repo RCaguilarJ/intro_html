@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(83, 66, 100);
+    margin: 0%;
+    padding: auto;
+}
+.block-element{
+    background-color: rgb(46, 146, 150);
+    margin: 5px;
+    padding: 15px;
+
+}
+.parrafo{
+    background-color: rgb(25, 97, 126);
+    margin: 20px;
+    padding: 20px;
+}
+.nav{
+    background-color: aquamarine;
+    margin: 0%;
+    padding:auto;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.span{
+    background-color: aqua;
+    margin: 20px;
+    padding: 5px;
+}
