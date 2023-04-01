@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+    }
+    .header{
+    width: 100%;
+    height: 74px;
+    display: inline-block;
+    background-color: red;
+    padding: 12px;
+    }
+    
+    .header .logo {
+    height: 50px;
+    width: 50px;
+    }
+    
+    .header .logo img {
+    height: 48px;
+    width: 48px;
+    }
+    
+    .header .menu{
+    text-align: right;
+    display: inline;
+    position: absolute;
+    right: 24px;
+    top: 30px;
+    }
+    
+    .header .menu li{
+    display: inline;
+    list-style: none;
+    margin: 12px;
+    }
+    
+    .header .menu li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    }
+    
+    .content{
+    display: inline-block;
+    background-color: salmon;
+    width: 100%;
+    height: 600px;
+    }
+    
+    .leftside {
+    background-color:black;
+    padding: 24px;
+    width: 20%;
+    height: 600px;
+    text-align: center;
+    }
+    .leftside .small-card {
+    text-align: center;
+    background-color:white;
+    width: auto;
+    min-height: 50px;
+    margin: 24px;
+    padding: 12px;
+    border-radius: 15px;
+    }
+    
+    .leftside .small-card img{
+    width: 48px;
+    height: auto;
+    }
+    
+    .mainsection {
+    padding: 24px;
+    position: absolute;
+    right: 0%;
+    left: 20%;
+    top: 74px;
+    height: 600px;
+    }
+    
+    .mainsection .big-card{
+    box-shadow: 4px 4px 16px red;
+    text-align: center;
+    width: 200px;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 24px;
+    margin: 24px;
+    }
+    
+    .mainsection .big-card img{
+    width: 150px;
+    height: auto;
+    }
